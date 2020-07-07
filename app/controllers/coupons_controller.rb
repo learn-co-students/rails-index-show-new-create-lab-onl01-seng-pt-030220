@@ -11,10 +11,10 @@ class CouponsController < ApplicationController
     end
 
     def create
-        @coupon = Coupon.new
-        @coupon.coupon_code = params[:coupon_code]
-        @coupon.store = params[:store]
-        @coupon.save
+        @coupon = Coupon.create(coupon_code: params[:coupon][:coupon_code], store: params[:coupon][:store])
+
+        # binding.pry
+      
         redirect_to coupon_path(@coupon)
     end
 end 
