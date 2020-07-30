@@ -1,0 +1,22 @@
+-------------------- Auto-Git Log --------------------
+		Thu Jul 30 2020 13:55:50 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* config/routes.rb
+
+
+Created files:
+* .autogit/autogit.json
+* app/controllers/coupons_controller.rb
+* app/models/coupon.rb
+* app/views/coupons/index.html.erb
+* app/views/coupons/new.html.erb
+* app/views/coupons/show.html.erb
+
+
+Deleted files:
+* config/secrets-template.yml
+
+
+Renamed files:
